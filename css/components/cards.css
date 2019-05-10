@@ -1,0 +1,33 @@
+/*Card type 3 - Trp Card, image on top, then description bottom*/
+.card {
+  width: 300px;
+  margin: 20px;
+}
+
+.card-main-img {
+  width: 100%;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 12px;
+  position: relative;
+}
+
+.card-desc h2 {
+  font-size: 14px;
+  margin: 4px 0px;
+
+}
+
+.card-desc p {
+  font-size: 12px;
+  font-weight: lighter;
+  margin: 0px;
+}
+
+
+
+
